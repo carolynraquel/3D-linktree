@@ -39,17 +39,7 @@ const links = [
   },
 
   {
-    link: "https://goldgrrl.bandcamp.com",
-    text: "BandCamp",
-    icon: <Bandcamp className="-mr-8" size={32} color="tomato" />
-  },
-  {
-    link: "https://www.soundcloud.com/goldgrrlchi",
-    text: "SoundCloud",
-    icon: <Soundcloud className="-mr-8" size={32} color="tomato" />
-  },
-  {
-    link: "https://charming-kangaroo-ac9cc5.netlify.app",
+    link: "https://www.linkedin.com/in/carolyn-carney-13a61824a/",
     text: "My Interactive Resume ",
     icon: <Linkedin className="-mr-8" size={32} color="tomato" />
   }

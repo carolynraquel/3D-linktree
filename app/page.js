@@ -1,4 +1,5 @@
 import Avatar from "@/components/Avatar";
+import { Youtube } from "lucide-react";
 
 // load home function
 export default function Home() {

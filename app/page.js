@@ -39,8 +39,8 @@ const links = [
   },
 
   {
-    link: "https://www.linkedin.com/in/carolyn-carney-13a61824a/",
-    text: "My Interactive Resume ",
+    link: "https://www.linkedin.com/in/carolyn-carney-13a61824a",
+    text: "LinkedIn",
     icon: <Linkedin className="-mr-8" size={32} color="tomato" />
   }
 ];

@@ -18,4 +18,6 @@ export default function Home() {
     </div>
    ); // end of return
 } 
+
+const links = [{link: "", text: "YouTube", icon: <Youtube />}];
 // end of Home 

@@ -6,7 +6,7 @@ export default function Home() {
     // bg gradient
     <div className="w-screen h-screen bg-gradient-to-br from-pink-400 to-green-300">
       <div className="flex justify-center items-center pt-4">
-        <Avatar/>
+        <Avatar />
       </div>
 
     {/* font size and color  */}

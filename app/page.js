@@ -16,7 +16,9 @@ export default function Home() {
         <h1>GoldGrrl</h1>
         <h2>Vocal Commander of Electric Mothership</h2>
       </div>
-      <div>
+
+      {/* center links */}
+      <div className="flex flex-col items-center gap-4 ">
         {links.map(link => <CardLink link={link} key={link.text} />)}
       </div>
     </div> // end of div
@@ -27,29 +29,29 @@ const links = [
   {
     link: "https://www.youtube.com/@goldgrrl",
     text: "YouTube",
-    icon: <Youtube />
+    icon: <Youtube className="-mr-8" size={32} color="tomato" />
   },
 
   {
     link: "https://www.instagram.com/goldgrrlchi",
     text: "Instagram",
-    icon: <Instagram />
+    icon: <Instagram className="-mr-8" size={32} color="tomato" />
   },
 
   {
     link: "https://goldgrrl.bandcamp.com",
     text: "BandCamp",
-    icon: <Bandcamp />
+    icon: <Bandcamp className="-mr-8" size={32} color="tomato" />
   },
   {
     link: "https://www.soundcloud.com/goldgrrlchi",
     text: "SoundCloud",
-    icon: <Soundcloud />
+    icon: <Soundcloud className="-mr-8" size={32} color="tomato" />
   },
   {
     link: "https://charming-kangaroo-ac9cc5.netlify.app",
     text: "My Interactive Resume ",
-    icon: <Linkedin />
+    icon: <Linkedin className="-mr-8" size={32} color="tomato" />
   }
 ];
 // end of Home 

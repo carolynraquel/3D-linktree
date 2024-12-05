@@ -1,7 +1,7 @@
 "use client";
 export default function CardLink({ link }) {
     function goTo(goToLink) {
-        window.open(goTolink);
+        window.open(goTolink, "_blank");
     }
 
     return (

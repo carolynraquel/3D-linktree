@@ -28,6 +28,18 @@ const links = [
     link: "https://www.youtube.com/@goldgrrl",
     text: "YouTube",
     icon: <Youtube />
+  },
+
+  {
+    link: "https://www.youtube.com/@goldgrrl",
+    text: "YouTube",
+    icon: <Youtube />
+  },
+  
+  {
+    link: "https://www.youtube.com/@goldgrrl",
+    text: "YouTube",
+    icon: <Youtube />
   }
 ];
 // end of Home 

@@ -7,18 +7,24 @@ export default function Home() {
     // bg gradient
     <div className="w-screen h-screen bg-gradient-to-br from-pink-400 to-green-300">
       <div className="flex justify-center items-center pt-4">
-        <Avatar/>
+        <Avatar />
       </div>
 
-    {/* font size and color  */}
-      <div className="text-center text-violet font-medium text-lg mt-2 pb-4"> 
+      {/* font size and color  */}
+      <div className="text-center text-violet font-medium text-lg mt-2 pb-4">
         <h1>GoldGrrl</h1>
         <h2>Vocal Commander of Electric Mothership</h2>
       </div>
 
     </div>
-   ); // end of return
-} 
+  ); // end of return
+}
 
-const links = [{link: "", text: "YouTube", icon: <Youtube />}];
+const links = [
+  {
+  link: "https://www.youtube.com/@goldgrrl",
+  text: "YouTube",
+  icon: <Youtube />
+  }
+];
 // end of Home 

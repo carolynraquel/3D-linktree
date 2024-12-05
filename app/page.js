@@ -1,4 +1,5 @@
 import Avatar from "@/components/Avatar";
+import CardLink from "@/components/CardLink";
 import { Youtube } from "lucide-react";
 
 // load home function
@@ -15,16 +16,18 @@ export default function Home() {
         <h1>GoldGrrl</h1>
         <h2>Vocal Commander of Electric Mothership</h2>
       </div>
-
-    </div>
+      <div>
+        {links.map(link => <CardLink link={link} key={link.text} />)}
+      </div>
+    </div> // end of div
   ); // end of return
 }
 
 const links = [
   {
-  link: "https://www.youtube.com/@goldgrrl",
-  text: "YouTube",
-  icon: <Youtube />
+    link: "https://www.youtube.com/@goldgrrl",
+    text: "YouTube",
+    icon: <Youtube />
   }
 ];
 // end of Home 

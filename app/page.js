@@ -1,7 +1,6 @@
 import Avatar from "@/components/Avatar";
 import CardLink from "@/components/CardLink";
 import { Instagram, Linkedin, Youtube } from "lucide-react";
-import { Instagram } from "lucide-react";
 
 // load home function
 export default function Home() {

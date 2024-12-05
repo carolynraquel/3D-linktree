@@ -31,15 +31,25 @@ const links = [
   },
 
   {
-    link: "https://www.youtube.com/@goldgrrl",
-    text: "YouTube",
-    icon: <Youtube />
+    link: "https://www.instagram.com/goldgrrlchi",
+    text: "Instagram",
+    icon: <Instagram />
   },
-  
+
   {
-    link: "https://www.youtube.com/@goldgrrl",
-    text: "YouTube",
-    icon: <Youtube />
+    link: "https://goldgrrl.bandcamp.com",
+    text: "BandCamp",
+    icon: <Bandcamp />
+  },
+  {
+    link: "https://www.soundcloud.com/goldgrrlchi",
+    text: "SoundCloud",
+    icon: <Soundcloud />
+  },
+  {
+    link: "https://charming-kangaroo-ac9cc5.netlify.app",
+    text: "My Interactive Resume ",
+    icon: <Linkedin />
   }
 ];
 // end of Home 

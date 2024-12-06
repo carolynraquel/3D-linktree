@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes ripple { 
+    0% { 
+        transform: scale(0); 
+        opacity: 1; 
+    } 
+     
+    100% { 
+        opacity: 0; 
+        transform: scale(25); 
+    } 
+}
+
+.CardLink {}
+.CardLink:hover {
+}
+.CardLinkCircle1 {
+    transform: scale(0);
+}
+.CardLinkCircle2 {
+    transform: scale(0);
+}
+.CardLinkCircle1Animation { 
+    animation: ripple 1s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.CardLinkCircle2Animation { 
+    animation: ripple 1s cubic-bezier(0.65, 0, 0.35, 1);
+    animation-delay: 0.67s;
+}
